@@ -27,5 +27,18 @@
   "block.gregtech.ore_calcite": "Calcite Ore",
   "block.gregtech.ore_deepslate_calcite": "Deepslate Calcite Ore",
   "block.gregtech.ore_cassiterite": "Cassiterite Ore",
-  "block.gregtech.ore_deepslate_cassiterite": "Deepslate Cassiterite Ore"
+  "block.gregtech.ore_deepslate_cassiterite": "Deepslate Cassiterite Ore",
+
+  "item.gregtech.raw_almandine": "Raw Almandine",
+  "item.gregtech.raw_aluminium": "Raw Aluminium",
+  "item.gregtech.raw_apatite": "Raw Apatite",
+  "item.gregtech.raw_bandediron": "Raw Banded Iron",
+  "item.gregtech.raw_barite": "Raw Barite",
+  "item.gregtech.raw_bastnasite": "Raw Bastnasite",
+  "item.gregtech.raw_bauxite": "Raw Bauxite",
+  "item.gregtech.raw_bentonite": "Raw Bentonite",
+  "item.gregtech.raw_beryllium": "Raw Beryllium",
+  "item.gregtech.raw_brownlimonite": "Raw Brown Limonite",
+  "item.gregtech.raw_calcite": "Raw Calcite",
+  "item.gregtech.raw_cassiterite": "Raw Cassiterite"
 }
