@@ -45,6 +45,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> ORE_DEEPSLATE_BROWNLIMONITE = registerBlock("ore_deepslate_brownlimonite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
     public static final RegistryObject<Block> ORE_CALCITE = registerBlock("ore_calcite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
     public static final RegistryObject<Block> ORE_DEEPSLATE_CALCITE = registerBlock("ore_deepslate_calcite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_CASSITERITE = registerBlock("ore_cassiterite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_DEEPSLATE_CASSITERITE = registerBlock("ore_deepslate_cassiterite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
 
     // Helper function for registering blocks.
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
