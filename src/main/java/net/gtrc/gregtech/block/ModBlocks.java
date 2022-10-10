@@ -1,4 +1,4 @@
-package net.gtrc.gregtech.bock;
+package net.gtrc.gregtech.block;
 
 import net.gtrc.gregtech.GregTech;
 import net.gtrc.gregtech.item.ModCreativeModeTabs;

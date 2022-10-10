@@ -1,7 +1,7 @@
 package net.gtrc.gregtech;
 
 import com.mojang.logging.LogUtils;
-import net.gtrc.gregtech.bock.ModBlocks;
+import net.gtrc.gregtech.block.ModBlocks;
 import net.gtrc.gregtech.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
