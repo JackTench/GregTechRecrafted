@@ -28,7 +28,9 @@ public class GregTech {
 
         // Register items and blocks from GregTech Recrafted.
         ModItems.register(modEventBus);
+        LOGGER.info("GTRC Items Loaded");
         ModBlocks.register(modEventBus);
+        LOGGER.info("GTRC Blocks Loaded");
 
         modEventBus.addListener(this::commonSetup);
 
