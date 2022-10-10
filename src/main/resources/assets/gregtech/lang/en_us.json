@@ -23,5 +23,7 @@
   "block.gregtech.ore_beryllium": "Beryllium Ore",
   "block.gregtech.ore_deepslate_beryllium": "Deepslate Beryllium Ore",
   "block.gregtech.ore_brownlimonite": "Brown Limonite Ore",
-  "block.gregtech.ore_deepslate_brownlimonite": "Deepslate Brown Limonite Ore"
+  "block.gregtech.ore_deepslate_brownlimonite": "Deepslate Brown Limonite Ore",
+  "block.gregtech.ore_calcite": "Calcite Ore",
+  "block.gregtech.ore_deepslate_calcite": "Deepslate Calcite Ore"
 }
