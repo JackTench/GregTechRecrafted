@@ -15,12 +15,18 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(GregTech.MOD_ID)
 public class GregTech {
+
+    // Define the modid as a string in the main class. This means I don't have to type it out perfectly whenever required. Easy to change in the future.
     public static final String MOD_ID = "gregtech";
+
+    // Creates a logger for the mod. This is used to print text to the console.
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    // I believe this code runs when the game starts.
     public GregTech() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Register items and blocks from GregTech Recrafted.
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -33,6 +39,7 @@ public class GregTech {
 
     }
 
+    // Write code here to be run on the client side only.
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents {
         @SubscribeEvent

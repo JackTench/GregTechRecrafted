@@ -14,6 +14,7 @@ public class ModItems {
     // Boring Test Item. Will be deleted soon.
     public static final RegistryObject<Item> TESTITEM = ITEMS.register("testitem", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeModeTabs.GTTAB_MAIN)));
 
+    // Called in the main class. Registers all of the items.
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

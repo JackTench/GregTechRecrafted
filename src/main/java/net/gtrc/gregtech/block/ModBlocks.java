@@ -25,7 +25,10 @@ public class ModBlocks {
     // GregTech Ores
     public static final RegistryObject<Block> ORE_ALMANDINE = registerBlock("ore_almandine", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
     public static final RegistryObject<Block> ORE_DEEPSLATE_ALMANDINE = registerBlock("ore_deepslate_almandine", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(7f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
-
+    public static final RegistryObject<Block> ORE_ALUMINIUM = registerBlock("ore_aluminium", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_DEEPSLATE_ALUMINIUM = registerBlock("ore_deepslate_aluminium", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_APATITE = registerBlock("ore_apatite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_DEEPSLATE_APATITE = registerBlock("ore_deepslate_apatite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
 
     // Helper function for registering blocks.
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
@@ -39,6 +42,7 @@ public class ModBlocks {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
     }
 
+    // Called in the main mod class, registers all of the blocks.
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }
