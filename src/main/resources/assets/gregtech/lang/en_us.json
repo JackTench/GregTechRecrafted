@@ -1,0 +1,9 @@
+{
+  "itemGroup.maintab": "GregTech Recrafted",
+  "itemGroup.orestab": "GregTech Ores",
+
+  "item.gregtech.testitem": "GregTech Recrafted Test Item",
+
+  "block.gregtech.ore_almandine": "Almandine Ore",
+  "block.gregtech.ore_deepslate_almandine": "Deepslate Almandine Ore"
+}
