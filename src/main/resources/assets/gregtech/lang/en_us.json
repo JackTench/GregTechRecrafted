@@ -13,5 +13,15 @@
   "block.gregtech.ore_bandediron": "Banded Iron Ore",
   "block.gregtech.ore_deepslate_bandediron": "Deepslate Banded Iron Ore",
   "block.gregtech.ore_barite": "Barite Ore",
-  "block.gregtech.ore_deepslate_barite": "Deepslate Barite Ore"
+  "block.gregtech.ore_deepslate_barite": "Deepslate Barite Ore",
+  "block.gregtech.ore_bastnasite": "Bastnasite Ore",
+  "block.gregtech.ore_deepslate_bastnasite": "Deepslate Bastnasite Ore",
+  "block.gregtech.ore_bauxite": "Bauxite Ore",
+  "block.gregtech.ore_deepslate_bauxite": "Deepslate Bauxite Ore",
+  "block.gregtech.ore_bentonite": "Bentonite Ore",
+  "block.gregtech.ore_deepslate_bentonite": "Deepslate Bentonite Ore",
+  "block.gregtech.ore_beryllium": "Beryllium Ore",
+  "block.gregtech.ore_deepslate_beryllium": "Deepslate Beryllium Ore",
+  "block.gregtech.ore_brownlimonite": "Brown Limonite Ore",
+  "block.gregtech.ore_deepslate_brownlimonite": "Deepslate Brown Limonite Ore"
 }
