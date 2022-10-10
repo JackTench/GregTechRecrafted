@@ -9,5 +9,9 @@
   "block.gregtech.ore_aluminium": "Aluminium Ore",
   "block.gregtech.ore_deepslate_aluminium": "Deepslate Aluminium Ore",
   "block.gregtech.ore_apatite": "Apatite Ore",
-  "block.gregtech.ore_deepslate_apatite": "Deepslate Apatite Ore"
+  "block.gregtech.ore_deepslate_apatite": "Deepslate Apatite Ore",
+  "block.gregtech.ore_bandediron": "Banded Iron Ore",
+  "block.gregtech.ore_deepslate_bandediron": "Deepslate Banded Iron Ore",
+  "block.gregtech.ore_barite": "Barite Ore",
+  "block.gregtech.ore_deepslate_barite": "Deepslate Barite Ore"
 }

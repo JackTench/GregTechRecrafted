@@ -29,6 +29,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> ORE_DEEPSLATE_ALUMINIUM = registerBlock("ore_deepslate_aluminium", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
     public static final RegistryObject<Block> ORE_APATITE = registerBlock("ore_apatite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
     public static final RegistryObject<Block> ORE_DEEPSLATE_APATITE = registerBlock("ore_deepslate_apatite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_BANDEDIRON = registerBlock("ore_bandediron", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_DEEPSLATE_BANDEDIRON = registerBlock("ore_deepslate_bandediron", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_BARITE = registerBlock("ore_barite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
+    public static final RegistryObject<Block> ORE_DEEPSLATE_BARITE = registerBlock("ore_deepslate_barite", () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTabs.GTTAB_ORES);
 
     // Helper function for registering blocks.
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
