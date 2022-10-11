@@ -1,6 +1,7 @@
 package net.gtrc.gregtech.item;
 
 import net.gtrc.gregtech.GregTech;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,7 +14,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, GregTech.MOD_ID);
 
     // Boring Test Item. Will be deleted soon.
-    public static final RegistryObject<Item> TESTITEM = ITEMS.register("testitem", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeModeTabs.GTTAB_MAIN)));
+    public static final RegistryObject<Item> TESTITEM = ITEMS.register("testitem", () -> new Item(new Item.Properties().stacksTo(1).tab(CreativeModeTab.TAB_MISC)));
 
     // GregTech Raw Ores
     public static final RegistryObject<Item> RAW_ALMANDINE = ITEMS.register("raw_almandine", () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.GTTAB_ORES)));

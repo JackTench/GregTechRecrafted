@@ -52,6 +52,10 @@
   "block.gregtech.ore_deepslate_iridium": "Deepslate Iridium Ore",
   "block.gregtech.ore_lazurite": "Lazurite Ore",
   "block.gregtech.ore_deepslate_lazurite": "Deepslate Lazurite Ore",
+  "block.gregtech.ore_lead": "Lead Ore",
+  "block.gregtech.ore_deepslate_lead": "Deepslate Lead Ore",
+  "block.gregtech.ore_lepidolite": "Lepidolite Ore",
+  "block.gregtech.ore_deepslate_lepidolite": "Deepslate Lepidolite Ore",
 
   "item.gregtech.raw_almandine": "Raw Almandine",
   "item.gregtech.raw_aluminium": "Raw Aluminium",
