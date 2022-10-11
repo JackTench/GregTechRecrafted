@@ -2,6 +2,7 @@ package net.gtrc.gregtech.item;
 
 import net.gtrc.gregtech.GregTech;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,6 +28,10 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_BROWNLIMONITE = ITEMS.register("raw_brownlimonite", () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.GTTAB_ORES)));
     public static final RegistryObject<Item> RAW_CALCITE = ITEMS.register("raw_calcite", () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.GTTAB_ORES)));
     public static final RegistryObject<Item> RAW_CASSITERITE = ITEMS.register("raw_cassiterite", () -> new Item(new Item.Properties().tab(ModCreativeModeTabs.GTTAB_ORES)));
+
+    // Em-Coin. An Emerald Coin.
+    public static final RegistryObject<Item> COIN_EMERALD = ITEMS.register("coin_emerald",
+            () -> new Item(new Item.Properties().rarity(Rarity.RARE).tab(ModCreativeModeTabs.GTTAB_MAIN)));
 
     // Called in the main class. Registers all of the items.
     public static void register(IEventBus eventBus) {

@@ -48,5 +48,7 @@
   "item.gregtech.raw_beryllium": "Raw Beryllium",
   "item.gregtech.raw_brownlimonite": "Raw Brown Limonite",
   "item.gregtech.raw_calcite": "Raw Calcite",
-  "item.gregtech.raw_cassiterite": "Raw Cassiterite"
+  "item.gregtech.raw_cassiterite": "Raw Cassiterite",
+
+  "item.gregtech.coin_emerald": "Em-Coin"
 }
